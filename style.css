@@ -1,0 +1,214 @@
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: #363636;
+    background: #ededed;
+  }
+  .box {
+    margin-bottom: 15px;
+  }
+  .box p {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  .box h2 {
+    font-size: 20px;
+    color: #80aaff;
+    text-transform: uppercase;
+  }
+  .box h2::before {
+    margin-right: 5px;
+    content: "//";
+  }
+  .contact-item {
+    float: left;
+    width: 100%;
+  }
+  .contact-item .icon {
+    padding: 10px;
+  /*  border-right: 1px solid #aaa;*/
+    border-bottom: 1px solid #aaa;
+    opacity: 0.2;
+  }
+  .contact-item:last-child .icon {
+    border-bottom: none;
+  }
+  .contact-item .fa {
+    font-size: 2em;
+  }
+  .contact-item .title {
+    width: 80%;
+  /*  width: calc(100% - 55px);*/
+    font-size: 1.5em;
+    font-weight: 700;
+    opacity: 0.9;
+  }
+  .contact-item .title.only {
+    margin-top: 10px;
+  }
+  .contact-item .description {
+    width: 80%;
+    width: calc(100% - 55px);
+    font-size: 20px;
+    opacity: 0.7;
+  }
+  .container {
+    margin-top: 80px;
+    margin-bottom: 15px;
+    background: #fff;
+  }
+  .text-center {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #education {
+    position: relative;
+    padding: 1em 0;
+    margin-top: 20px;
+    list-style: none;
+  }
+  #education::before {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    display: block;
+    width: 5px;
+    height: 100%;
+    content: " ";
+    background: #80aaff;
+  }
+  #education li {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+  }
+  .job .year {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  #education .year {
+    display: inline-block;
+    width: 10%;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    background: #fff;
+  }
+  .job .description {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  #education .description {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    padding: 10px 10px 0 10px;
+    margin-bottom: 10px;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+  }
+  #education .description p {
+    padding: 0;
+    margin-top: 5px;
+    font-size: 22px;
+  }
+  #education .description h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  #funfacts .fact {
+    padding-bottom: 10px;
+    margin: 10px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #eee;
+  }
+  .hobby {
+    position: relative;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #fff;
+    background: #3754b3;
+  }
+  .item-skills {
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #3754b3;
+  }
+  .job {
+    margin-bottom: 15px;
+  }
+  .job .where {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .job .profession {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #photo {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    padding: 5px;
+    overflow: hidden;
+    background: #ededed;
+    border-radius: 50%;
+  }
+  #photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  #photo-header {
+    margin-top: -75px;
+  }
+  .skills-legend {
+    margin-top: 20px;
+    opacity: 0.8;
+  }
+  .skills-legend div {
+    display: inline-block;
+    width: 25%;
+    font-size: 1.2em;
+    color: #a9a9a9;
+  }
+  #text-header h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
+  #text-header h1::first-line {
+    font-size: 1.5em;
+    font-weight: 800;
+    line-height: 1.5em;
+    letter-spacing: -4px;
+  }
+  #text-header h1 sup {
+    opacity: 0.5;
+  }
+  #text-header h1 span {
+    color: #80aaff;
+  }
+  #text-header::after {
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin-top: 15px;
+    content: "";
+    background: url(../img/line.png);
+  }
