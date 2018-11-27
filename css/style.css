@@ -611,7 +611,7 @@ ol {
 	position: relative;
 }
 
-.portfolio-item .port-pic:after {
+/* .portfolio-item .port-pic:after {
 	position: absolute;
 	content: '';
 	left: 0;
@@ -624,7 +624,7 @@ ol {
 	-webkit-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
 	-o-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
 	transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
-}
+} */
 
 .portfolio-item:hover .port-pic:after {
 	opacity: 0.8;

@@ -71,7 +71,7 @@ $(window).on('load', function() {
 	/*------------------
 		Popup
 	--------------------*/
-	$('.portfolio-item .port-pic').magnificPopup({
+	$('.portfolio-item .port-pic:not(.ignore-magnific)').magnificPopup({
 		type: 'image',
 		mainClass: 'img-popup-warp',
 		removalDelay: 500,
