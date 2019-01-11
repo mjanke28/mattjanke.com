@@ -1284,7 +1284,6 @@ ol {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.portfolio-warp {
 		padding: 0;
-		margin-bottom: 300px;
 	}
 	.hidden-md {
 		display: none !important;
