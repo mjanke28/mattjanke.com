@@ -222,7 +222,7 @@
 
 .feature-button.hero-button {
   margin-top: 19px;
-  display: block;
+  display: none;
 }
 
 .feature-button.form-button {
