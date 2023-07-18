@@ -106,11 +106,15 @@
   margin-top: 10px;
   margin-bottom: 0;
   padding-top: 0;
-  padding-left: 10px;
+  padding-left: 0;
   padding-right: 20px;
   font-size: 17px;
   line-height: 28px;
   display: block;
+}
+
+.paragraph.para-size.para-form {
+  padding-left: 10px;
 }
 
 .body {
@@ -514,7 +518,7 @@
   }
 
   .paragraph.para-size {
-    padding-left: 10px;
+    padding-left: 0;
     padding-right: 15px;
     font-size: 15px;
     line-height: 25px;
@@ -789,6 +793,7 @@
   .div-block-23 {
     order: 0;
     align-items: flex-start;
+    margin-top: -15px;
     display: block;
   }
 
@@ -905,6 +910,10 @@
     min-height: 100px;
     padding-top: 10px;
     padding-left: 30px;
+  }
+
+  .div-block-23 {
+    margin-top: -15px;
   }
 
   .div-block-24 {
