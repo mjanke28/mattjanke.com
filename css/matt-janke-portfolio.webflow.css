@@ -117,6 +117,10 @@
   padding-left: 10px;
 }
 
+.paragraph.para-size.para-index {
+  font-size: 22px;
+}
+
 .body {
   color: #171515;
   margin-left: auto;
@@ -524,6 +528,10 @@
     line-height: 25px;
   }
 
+  .paragraph.para-size.para-index {
+    font-size: 19px;
+  }
+
   .paragraph-2.para-color {
     display: none;
   }
@@ -645,6 +653,10 @@
     padding-right: 10px;
     font-size: 14px;
     line-height: 21px;
+  }
+
+  .paragraph.para-size.para-index {
+    font-size: 16px;
   }
 
   .heading-2.size.footer-h1 {
